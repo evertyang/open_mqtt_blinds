@@ -35,7 +35,7 @@ Anyone with a beginner’s level of mechatronics experience who wishes to automa
         - (if you didn’t purchase the above)
     - Metric screws:
         - (4) M2x8
-        - (2) M2x4
+        - (6) M2x4
         - (2) M3x4
 - Nice to haves:
     - Access to a 3D printer OR the ability to get 3D printed parts
@@ -82,7 +82,7 @@ Anyone with a beginner’s level of mechatronics experience who wishes to automa
         
         ![Untitled](images/Untitled%205.png)
         
-    3. Hit the *******Allow person to login******* toggle and create a MQTT user. I name mined `mqtt-user`. 
+    3. Hit the *******Allow person to login******* toggle and create a MQTT user. I name mine `mqtt-user`. 
         
         ![Untitled](images/Untitled%206.png)
         
