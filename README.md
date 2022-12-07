@@ -1,10 +1,12 @@
-# README
-
 # Open MQTT Blinds
 
 An Arduino/ESP-based project to facilitate the automation of tilt wand blinds via MQTT
 
 ![giphy-2.gif](images/giphy-2.gif)
+
+## Video 
+
+[https://youtu.be/ts8RMRIDTVA](https://youtu.be/ts8RMRIDTVA)
 
 # Who is this for?
 
