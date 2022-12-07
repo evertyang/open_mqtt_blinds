@@ -1,0 +1,28 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# start custom configuration 
+mqtt:
+  sensor:
+    - unique_id: "blinds01_state" # this must be unique in order to enable it in the dashboard
+      name: "Blinds01 State"
+      state_topic: "blinds_node/position"
+  switch:
+    - unique_id: "blinds01_switch" # this must be unique in order to enable it in the dashboard
+      name: "Blinds01 Switch"
+      state_topic: "blinds_node/position"
+      command_topic: "blinds_node/input"
+      payload_on: "0" # this paylod opens the blinds 
+      payload_off: "1" # this payload closes the blinds 
+      state_on: "OPENED" # looks at topic 'blinds_node/position' and if it is 'OPENED', set state to on
+      state_off: "CLOSED" # looks at topic 'blinds_node/position' and if it is 'CLOSED', set state to off
+      qos: 1 # keeps sending MQTT payload until it acknolwedged 
+      retain: true # enables home assistant to know that the blinds are still open/closed 
