@@ -1,5 +1,3 @@
-# DESIGN
-
 # Motivation
 
 The motivation behind this project came from a desire to automate blinds that was hindered by a relatively costly barrier to entry. Many commercial products on the market ranged anywhere from $75 to $750 per set of blinds. While DIY smart blinds are not a novel concept, many tutorials and blog posts focused on cord tilt blinds while I envisioned a simple motor to turn a tilt wand to change the shade level.
