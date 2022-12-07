@@ -8,6 +8,10 @@ An Arduino/ESP-based project to facilitate the automation of tilt wand blinds vi
 
 [https://youtu.be/ts8RMRIDTVA](https://youtu.be/ts8RMRIDTVA)
 
+## Printables
+
+View the 3D files here on [Printables](https://www.printables.com/model/334239-open-mqtt-blinds-wip). 
+
 # Who is this for?
 
 Anyone with a beginner’s level of mechatronics experience who wishes to automate their tilt wand blinds. 
